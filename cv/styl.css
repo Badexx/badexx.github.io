@@ -1,0 +1,44 @@
+body
+
+{
+    background-color:rgb(182, 215, 245);
+}
+
+h1
+
+{
+    font-size: 50pt;
+    background-color:rgb(200, 233, 129);
+}
+
+#info
+
+{
+
+    font-size: 75pt;
+}
+
+p2
+
+{
+    background-color: rgb(190, 136, 241);
+}
+ 
+h3
+
+{
+color: rgb(11, 139, 11);
+}
+
+#mail
+
+{
+    font-style: italic;
+}
+
+#info2
+
+{
+    font-size: 25pt;
+    color: darkred;
+}
