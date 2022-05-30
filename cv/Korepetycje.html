@@ -1,0 +1,75 @@
+<html>
+    <head>
+        <meta charset = "utf-8" />
+        <link rel="stylesheet" href="styl.css" />
+        <script src="skrypt.js"></script>
+    </head>
+<body>    
+    <h1>    
+    <center><p id="info">Korepetycje dla kidosów</p></center>
+    </h1>
+    <h2>
+        <center>Dział 1: Obliczenia na walcach</center>
+    </h2>
+    <p>
+            <center>W tym poradniku pokaże wam jak zrobić w javie ciężkie obliczenia związane z walcem <br></center>
+    </p>
+    <h2>
+        Jaki jest cel nauki?
+    </h2>
+    <p>
+        Nauczycie sie jak działa język java oraz co to i w jaki sposób wykorzystywać funkcje Scannera<br>
+    </p>
+    <h2>
+        Zadanie + Rozwiązanie:
+    </h2> 
+    <p>
+        Oblicz pole podstawy walca, objętość i pole znając jego promień i wysokość:
+		promien: 4,567cm 
+		wysokość: 45,676446cm
+    </p>
+    <p>
+        Poniżej wstawiłem kod żródłowy wykonanego zadnania wraz z podpowiedziami.
+    </p>
+
+    <p> 
+    <table>
+        <td>Scanner sc=new Scanner (System.in);</td>
+        <td><p2><----- Obliczamy pole koła czyli pole podstawy</p2></td>
+    </table>
+		System.out.println("Podaj r");<br>
+		double r=sc.nextDouble();<br>
+		double s=(Math.PI * r * r);<br>
+		System.out.println("wynik pola podstawy");<br>
+		System.out.println(s);<br>
+        <table>
+        <td>System.out.println("Podaj h");</td>
+        <td><p2><----- teraz obliczamy objętość walca</p2></td>
+        </table>
+		double h=sc.nextDouble();<br>
+		double w=((Math.PI * r * r) * h);<br>
+		System.out.println("wynik objętości walca");<br>
+		System.out.println(w);<br>
+        //teraz pole powerzchni walca<br>
+        <table>
+        <td>System.out.println("Podaj R");</td>
+        <td><p2><----- teraz obliczamy pole powerzchni walca. To jest juz ostatnie działanie</p2></td>
+        </table>
+		double R=sc.nextDouble();<br>
+		System.out.println("Podaj H");<br>
+		double H=sc.nextDouble();<br>
+		double z=((2*Math.PI * R * R)+(2*Math.PI * R * H)+(2*Math.PI * R*(R + H)));<br>
+		System.out.println("wynik pola powierzchni walca");<br>
+        System.out.println(z);<br>
+    </p> 
+    <h2> 
+        <center>Zadanie wykonane!</center> 
+    </h2>
+    <p> <center>KUP KURS</center> </p>
+    <p><center>jeżeli chcesz zostać prawdziwym programistom</center></p>
+
+
+
+</body>
+
+</html>

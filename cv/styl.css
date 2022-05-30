@@ -1,14 +1,14 @@
 body
 
 {
-    background-color:rgb(182, 215, 245);
+    background-color: rgba(0, 0, 0, 0.137);
 }
 
 h1
 
 {
     font-size: 50pt;
-    background-color:rgb(200, 233, 129);
+    background-color:rgb(160, 163, 155);
 }
 
 #info
@@ -21,7 +21,7 @@ h1
 p2
 
 {
-    background-color: rgb(190, 136, 241);
+    background-color: rgb(168, 178, 185);
 }
  
 h3
@@ -40,5 +40,5 @@ color: rgb(11, 139, 11);
 
 {
     font-size: 25pt;
-    color: darkred;
+    color: rgb(143, 57, 57);
 }
